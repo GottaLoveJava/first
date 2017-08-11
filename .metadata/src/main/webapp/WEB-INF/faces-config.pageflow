@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pageflow:Pageflow xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14697122067640" configfile="/SimpleFullMavenWarInjectJPATP/src/main/webapp/WEB-INF/faces-config.xml"/>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14697122067640" configfile="/SimpleFullMavenWarInjectJPATP/src/main/webapp/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="login.xhtml" id="pf15024618719863" referenceLink="//@navigationRule.0/@fromViewId|" outlinks="pf150246203913112" path="/login.html"/>
+  <nodes xsi:type="pageflow:PFPage" name="list-students.xhtml" id="pf150246203913113" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf150246203913112" path="/list-students.xhtml"/>
+  <links id="pf150246203913112" target="pf150246203913113" source="pf15024618719863" outcome="Submit"/>
+</pageflow:Pageflow>
