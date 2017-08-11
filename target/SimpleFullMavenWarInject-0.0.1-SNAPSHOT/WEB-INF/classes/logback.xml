@@ -28,11 +28,11 @@
 
 
 	<logger name="org.hibernate.type" level="ERROR" />
-	<logger name="org.hibernate" level="WARN" />
-	<logger name="org.slf4j.simpleLogger.log.org.jboss.weld" level="ERROR" />
+	<logger name="org.hibernate" level="ERROR" />
+	<logger name="org.slf4j.simpleLogger.log.org.jboss.weld" level="OFF" />
 	
 	
-	<!-- <logger name="simpleLogger.MainTest" level="DEBUG" /> -->
+<!-- 	<logger name="org.slf4j.simpleLogger.defaultLogLevel" level="ERROR" /> -->
 	<logger name="simpleLogger.MainTest" level="DEBUG">
 		<appender-ref ref="FILE" />
 	</logger>

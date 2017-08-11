@@ -12,8 +12,8 @@ import javax.persistence.Id;
 //Completer pour JSF
 //Completer pour JPA
 
-@Entity
 @Named
+@Entity
 @SessionScoped
 public class Student implements Serializable {
 

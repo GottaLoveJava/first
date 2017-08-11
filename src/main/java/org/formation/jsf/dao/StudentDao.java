@@ -29,7 +29,7 @@ public class StudentDao implements IStudentDao, Serializable {
 		EntityTransaction et = em.getTransaction();
 		try {
 			et.begin();
-			TypedQuery<Student> query = em.createQuery("from Student", Student.class);
+			TypedQuery<Student> query = em.createQuery(" from Student", Student.class);
 			retList = query.getResultList();
 			et.commit();
 		} catch (Exception e) {
